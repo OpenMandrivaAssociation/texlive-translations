@@ -6,7 +6,7 @@
 # catalog-version 1.1a
 Name:		texlive-translations
 Version:	1.1a
-Release:	4
+Release:	5
 Summary:	Internationalisation of LaTeX2e packages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/translations
