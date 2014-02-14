@@ -1,12 +1,12 @@
-# revision 31800
+# revision 32779
 # category Package
 # catalog-ctan /macros/latex/contrib/translations
-# catalog-date 2013-09-30 07:01:40 +0200
+# catalog-date 2014-01-23 21:38:33 +0100
 # catalog-license lppl1.3
-# catalog-version 1.1a
+# catalog-version 1.2a
 Name:		texlive-translations
-Version:	1.1a
-Release:	5
+Version:	1.2a
+Release:	1
 Summary:	Internationalisation of LaTeX2e packages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/translations
