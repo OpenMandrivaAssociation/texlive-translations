@@ -1,6 +1,6 @@
 Name:		texlive-translations
 Version:	1.7a
-Release:	1
+Release:	2
 Summary:	Internationalisation of LaTeX2e packages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/translations
