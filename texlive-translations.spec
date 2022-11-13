@@ -1,12 +1,12 @@
 Name:		texlive-translations
-Version:	1.7a
-Release:	2
+Version:	61896
+Release:	1
 Summary:	Internationalisation of LaTeX2e packages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/translations
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translations.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translations.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translations.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translations.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +24,12 @@ from babel or polyglossia if either is in use in the document.
 possible: ask the author.).
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -38,7 +38,7 @@ possible: ask the author.).
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
