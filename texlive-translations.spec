@@ -3,7 +3,7 @@ Version:	61896
 Release:	2
 Summary:	Internationalisation of LaTeX2e packages
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/translations
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/translations
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translations.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translations.doc.r%{version}.tar.xz
